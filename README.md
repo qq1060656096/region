@@ -1,6 +1,7 @@
-# zwei/comment 包
+# zwei/region 包
 
-> 为了在不同的项目中验证验证码，保存到验证码到数据库方便,做日志记录
+> 1. 提供中国城市区域(类似美团地区选择),数据中国城市区域数据抓取美团地区数据
+> 2. 提供自定义层级地区
 
 ## 1 安装(Install)
 > 1. 通过Composer安装
@@ -9,7 +10,8 @@
 ```json
 {
   "require": {
-    "zwei/comment": "dev-develop"
+    "zwei/region": "dev-master",
+    "zwei/base": "~v1"
   }
 }
 ```

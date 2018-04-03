@@ -21,7 +21,7 @@
 
   ],
   "require": {
-    "zwei/base": "dev-master",
+    "zwei/base": "~1",
     "overtrue/pinyin": "~3.0"
   },
   "require-dev": {

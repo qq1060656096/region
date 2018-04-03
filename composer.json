@@ -1,0 +1,40 @@
+{
+  "name": "zwei/region",
+  "description": "The Zwei Region package.",
+  "license": "BSD 3-Clause",
+  "homepage": "https://github.com/qq1060656096/region",
+  "support": {
+    "issues": "https://github.com/qq1060656096/region/issues",
+    "source": "https://github.com/qq1060656096/region"
+  },
+  "authors": [
+    {
+      "name": "Zhao Wei Jie",
+      "email": "1060656096@qq.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/qq1060656096/base.git"
+    }
+
+  ],
+  "require": {
+    "zwei/base": "dev-master",
+    "overtrue/pinyin": "~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zwei\\Region\\": "src/",
+      "Zwei\\Region\\Tests\\": "tests/"
+    }
+  },
+  "suggest": {
+    "php": "Required to php >=(5.4).",
+    "doctrine/dbal": "Required to Doctrine (^v2.5.13)."
+  }
+}
